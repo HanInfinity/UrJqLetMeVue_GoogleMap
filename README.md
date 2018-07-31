@@ -52,4 +52,4 @@ DEMO:
 
 DEMO:
 
-![localStorage](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/currentPosition.gif?raw=true "localStorage")
+![localStorage](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/localstorage.gif?raw=true "localStorage")
