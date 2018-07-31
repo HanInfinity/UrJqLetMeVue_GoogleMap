@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>你的jQ，我來Vue - 17來ViewVue</title>
+</head>
+
+<body>
+    <h2>你的jQ，我來Vue</h2>
+    <h5> - 17來ViewVue - </h5>
+    <!--The div element for the map -->
+    <div class="tab">
+        <button type="button" id="OriginStyleBtn" class="tab_left">Original Style</button>
+        <button type="button" id="AlexStyleBtn" class="tab_right">Alex Style</button>
+    </div>
+    <div id="map"></div>
+    <div class="loding">
+        <i class="far fa-compass fa-5x fa-spin"></i>
+    </div>
+    <div class="BtnArea">
+        <button type="button" id="CurrentPositionBtn" class="btn">取得當前位置</button>
+        <button type="button" id="ClearPositionBtn" class="btn">清除記憶</button>
+    </div>
+    <!-- <button type="button" id="MapStyleBtn" class="func">施展魔法！Alex Style Map！</button> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGQooXsR77asbEZ-Tsd9yBQDSJsnBhtsk&callback=initMap">
+    </script>
+    <script src="js/map.js"></script>
+    <script>
+    (function($) {
+        tabBtn();
+
+        function tabBtn() {
+            $(".tab_right").addClass('tabActive');
+        }
+        $(".tab_left").click(function() {
+            $(".tab_right").addClass('tabActive');
+            $(".tab_left").removeClass('tabActive');
+        });
+        $(".tab_right").click(function() {
+            $(".tab_left").addClass('tabActive');
+            $(".tab_right").removeClass('tabActive');
+        });
+    })($);
+    </script>
+</body>
+
+</html>

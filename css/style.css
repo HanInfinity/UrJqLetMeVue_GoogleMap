@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/bg.png");
+    color: rgb(240,163,31);
+}
+h2{
+    margin: .5em;
+    margin-bottom: .1em;
+}
+h5{
+    margin: 1em;
+    color: rgb(249,225,182);
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#map {
+    height: 75vh;
+    width: 100%;
+    border-radius:5px;
+}
+.loding{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    line-height: 100vh;
+    visibility: hidden;
+}
+.loding i{
+
+}
+.btn{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: rgb(32,32,32);
+  color: rgb(240,163,31);
+  font-size: 1em;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 2%;
+    margin-top: 0;
+    width: 50%;
+    margin-top: 0;
+}
+.tab_right{
+    width: 30%;
+    border-radius: 0 4px 4px 0;
+    background-color: rgb(32,32,32);
+    color: rgb(240,163,31);
+    font-size: 1em;
+    padding: 0.5%;
+}
+.tab_left{
+    width: 30%;
+    border-radius:4px 0 0 4px;
+    background-color: rgb(72,133,243);
+    color: rgb(254,255,254);
+    font-size: 1em;
+    padding: 0.5%;
+}
+.tabActive{
+    background-color: rgba(255, 255, 252, 1);
+    color: rgba(153, 153, 153, 1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.infoWin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.BtnArea{
+    flex-direction: row;
+}
