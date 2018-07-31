@@ -17,6 +17,7 @@
 - [Styling documentation](https://developers.google.com/maps/documentation/javascript/styling)
 
 DEMO:
+
 ![套用客製化Style](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/style.gif?raw=true "套用客製化Style")
 
 🔸取得當前位置
@@ -30,6 +31,7 @@ DEMO:
 - [Google Maps Geolocation documentation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation)
 
 DEMO:
+
 ![取得當前位置](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/currentPosition.gif?raw=true "取得當前位置")
 
 🔸HTML5 Web Storage (localStorage)
@@ -42,4 +44,5 @@ DEMO:
 - [MDN - window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 DEMO:
+
 ![localStorage](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/currentPosition.gif?raw=true "localStorage")
