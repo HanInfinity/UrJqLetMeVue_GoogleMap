@@ -17,7 +17,7 @@
 - [Styling documentation](https://developers.google.com/maps/documentation/javascript/styling)
 
 DEMO:
-![套用客製化Style](https://github.com/tinatyc/TheF2E-17King/blob/master/ScreenShot/1_TodoList_Screenshot.gif?raw=true "套用客製化Style")
+![套用客製化Style](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/style.gif?raw=true "套用客製化Style")
 
 🔸取得當前位置
 >說明：
