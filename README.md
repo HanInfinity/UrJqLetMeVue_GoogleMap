@@ -20,6 +20,8 @@ DEMO:
 
 ![套用客製化Style](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/style.gif?raw=true "套用客製化Style")
 
+---
+
 #### 🔸取得當前位置
 >說明：
 
@@ -33,6 +35,8 @@ DEMO:
 DEMO:
 
 ![取得當前位置](https://github.com/tinatyc/UrJqLetMeVue_GoogleMap/blob/master/gif/currentPosition.gif?raw=true "取得當前位置")
+
+---
 
 #### 🔸HTML5 Web Storage (localStorage)
 >說明：
