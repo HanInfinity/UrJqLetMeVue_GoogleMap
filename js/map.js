@@ -32,7 +32,7 @@ function initMap() {
 
     /* infoWindow */
     var infoWindow = new google.maps.InfoWindow;
-    var infoContent = '<div class="infoWin"><h2 style="text-align: center">認同請分享Alex宅在嘛～</h2><img src="../img/localAlex.png"><button type="button" id="saveCurPos" class="btn">儲存當前位置</button></div>';
+    var infoContent = '<div class="infoWin"><h2 style="text-align: center">認同請分享Alex宅在嘛～</h2><img src="https://raw.githubusercontent.com/tinatyc/UrJqLetMeVue_GoogleMap/master/img/localAlex.png"><button type="button" id="saveCurPos" class="btn">儲存當前位置</button></div>';
 
     function openInfoWindow(CurrentPos) {
         infoWindow.setPosition(CurrentPos);
